@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+  <div class="timer-box">
+    <h2>Timer</h2>
+
+    <div>
+      <input type="number" id="min" placeholder="Min">
+      <input type="number" id="sec" placeholder="Sec">
+    </div>
+
+    <div id="display">00:00</div>
+
+    <button class="start" onclick="start()">Start</button>
+    <button class="pause" onclick="pause()">Pause</button>
+    <button class="reset" onclick="reset()">Reset</button>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
